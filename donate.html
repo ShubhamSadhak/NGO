@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate</title>
+    <link rel="stylesheet" href="donate.css" />
+  </head>
+  <body>
+    <header class="header">
+      <ul>
+        <!-- <li class="navbar"><a href="index.html">Home</a></li> -->
+        <a href="index.html"><button>Home</button></a>
+      </ul>
+    </header>
+    <div class="container">
+      <div class="donate">
+        <h1>Donate to Our Cause</h1>
+        <p>Your donation will help us provide education to underprivileged children around the world.</p>
+        <form>
+          <label for="amount">Donation Amount:</label>
+          <input type="number" id="amount" name="amount" min="5" max="1000" step="5" value="10" required />
+          <button type="submit">Donate Now</button>
+        </form>
+        <p>We accept donations via credit card, UPI, and bank transfer.</p>
+        <h2>Other Ways to Donate</h2>
+        <p>You can also donate by mail or by phone. To donate by mail, please send a check or money order to:</p>
+        <address>
+          Shiksha <br>
+          NGO Education for Children<br>
+          47, Agarpara<br>
+          Kolkata, West Bengal 700110
+        </address>
+        <p>To donate by phone, please call us at (+91) 6289952219.</p>
+      </div>
+    </div>
+  </body>
+  <!-- <script>
+    const home = document.querySelector('.header button');
+    home.addEventListener('click',()=>{
+        window.location.href = 'index.html';
+    });
+  </script> -->
+</html>

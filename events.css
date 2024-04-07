@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('children-wide-banner.jpg');
+    background-size: contain;
+    font-weight: 1000;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .events {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    margin-left: 40px;
+    margin-right: 115px;
+  }
+  
+  .event {
+    margin-bottom: 40px;
+  }
+  
+  .event h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  
+  .header {
+    background-color:rgba(240, 248, 255, 0.847);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    list-style: none;
+    ;
+}
+
+.header ul {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 23px;
+    color: red;
+    margin-left: 15px;
+    list-style: none;
+    font-weight:bold;
+    cursor: default;
+    opacity: 70%;
+}
+
+.navbar {
+    margin-right: 30px;
+}
+
+.navbar a {
+    font-family: 'Bree Serif', serif;
+    color: black;
+    padding-right: 8px;
+    font-weight: 500;
+    margin: 0px 20px;
+    list-style: none;
+    margin-left: 23px;
+    cursor: default;
+    opacity: 80%;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: rgb(96, 94, 9);
+}
+
+.navbar a.active {
+    color:black
+}

@@ -1,0 +1,91 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    margin-left: 40px;
+    margin-right: 115px;
+  }
+  
+  .donate h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  
+  .donate p {
+    margin-top: 20px;
+  }
+  
+  .donate form {
+    margin-top: 40px;
+  }
+  
+  .donate label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .donate input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .donate button[type="submit"] {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .donate address {
+    margin-top: 40px;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+
+  button{
+    /* background-color: #979696; */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+
+    font-family: 'Bree Serif', serif;
+    background-color:rgba(240, 248, 255, 0.864);
+    border-color: black;
+    color:rgb(96, 94, 94);
+    border-radius: 10px;
+    font-weight: bold;
+  }
